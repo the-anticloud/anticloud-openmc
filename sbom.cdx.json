@@ -1,0 +1,151 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:b6417895-badf-530e-9e82-75e98a1c05da",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T17:32:17Z",
+    "component": {
+      "type": "application",
+      "name": "OPENMC",
+      "version": "3cded0fbe0d6",
+      "bom-ref": "pkg:generic/anticloud/OPENMC@3cded0fbe0d6",
+      "purl": "pkg:generic/anticloud/OPENMC@3cded0fbe0d6",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "3cded0fbe0d6a066c17e74dd818bd19dbbcb10c3"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/openmc-dev/openmc"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "OpenMP",
+      "version": "unspecified",
+      "purl": "pkg:generic/OpenMP",
+      "bom-ref": "native/OpenMP@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "MPI",
+      "version": "unspecified",
+      "purl": "pkg:generic/MPI",
+      "bom-ref": "native/MPI@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "DAGMC",
+      "version": "unspecified",
+      "purl": "pkg:generic/DAGMC",
+      "bom-ref": "native/DAGMC@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "XDG",
+      "version": "unspecified",
+      "purl": "pkg:generic/XDG",
+      "bom-ref": "native/XDG@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "LIBMESH",
+      "version": "unspecified",
+      "purl": "pkg:generic/LIBMESH",
+      "bom-ref": "native/LIBMESH@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "PNG",
+      "version": "unspecified",
+      "purl": "pkg:generic/PNG",
+      "bom-ref": "native/PNG@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "HDF5",
+      "version": "unspecified",
+      "purl": "pkg:generic/HDF5",
+      "bom-ref": "native/HDF5@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": "unspecified",
+      "purl": "pkg:pypi/numpy",
+      "bom-ref": "pypi/numpy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "h5py",
+      "version": "unspecified",
+      "purl": "pkg:pypi/h5py",
+      "bom-ref": "pypi/h5py@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "scipy",
+      "version": "unspecified",
+      "purl": "pkg:pypi/scipy",
+      "bom-ref": "pypi/scipy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ipython",
+      "version": "unspecified",
+      "purl": "pkg:pypi/ipython",
+      "bom-ref": "pypi/ipython@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "matplotlib",
+      "version": "unspecified",
+      "purl": "pkg:pypi/matplotlib",
+      "bom-ref": "pypi/matplotlib@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pandas",
+      "version": "unspecified",
+      "purl": "pkg:pypi/pandas",
+      "bom-ref": "pypi/pandas@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "lxml",
+      "version": "unspecified",
+      "purl": "pkg:pypi/lxml",
+      "bom-ref": "pypi/lxml@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "uncertainties",
+      "version": "unspecified",
+      "purl": "pkg:pypi/uncertainties",
+      "bom-ref": "pypi/uncertainties@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "endf",
+      "version": "unspecified",
+      "purl": "pkg:pypi/endf",
+      "bom-ref": "pypi/endf@unspecified"
+    }
+  ]
+}
