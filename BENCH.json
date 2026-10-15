@@ -540,10 +540,10 @@
  "version": "1.0.0",
  "source": {
   "git": {
-   "head": "8e2907a2717cb43212b1be249f6ed5a6f824bfc0",
-   "url": "https://github.com/openmcdf/openmcdf",
-   "branch": "main",
-   "sha_verified_from": "GitHub API commits/main | unified 2026-10-14 (API-exists + content/clone anchor)"
+   "url": "https://github.com/openmc-dev/openmc",
+   "head": "46c4c607518cd4aa4fba6d2db08cf5146b56e5e3",
+   "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
+   "previous_substitute": "https://github.com/openmcdf/openmcdf"
   }
  }
 }

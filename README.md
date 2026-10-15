@@ -2,9 +2,7 @@
 
 > The OpenMC project aims to provide a fully-featured Monte Carlo particle transport code based on modern methods. It is a constructive solid geometry, continuous-energy transport code that uses HDF5 format cross sections. The project started under the Computational Reactor Physics Group at MIT.
 
-**Category:** NUCLEAR · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/openmcdf/openmcdf · **Pinned commit:** `8e2907a2717cb43212b1be249f6ed5a6f824bfc0` · **Vendor:** Anticloud FZ LLE
-
-> **Note:** this package vendors `https://github.com/openmcdf/openmcdf` as the implementation for the `OPENMC` slot. The vendored repository name differs from the package name; the pin above is the exact commit vendored here.
+**Category:** NUCLEAR · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/openmc-dev/openmc · **Pinned commit:** `46c4c607518cd4aa4fba6d2db08cf5146b56e5e3` · **Vendor:** Anticloud FZ LLE
 
 ## What This Project Is
 
@@ -62,7 +60,7 @@ The upstream licence is preserved in `LICENSE` and `THIRD_PARTY_LICENSES/`. The 
 SHA3-256 of `BENCH.json`:
 
 ```
-4bd6a367cbc81842783340df254bf4a4c4b07b5ff99e37cf7638ff8802d2af0e
+cc0003e9a54ef80092507b43db4fd0a36a624c0c56bdd3081125ea3ad147f18b
 ```
 
 Recompute the hash above and compare — any drift means the package has been tampered with and the seal is invalid. This is a self-assessment; no external audit has been performed and a SOC 2 / NIST independent audit is committed post-funding.
