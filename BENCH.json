@@ -543,7 +543,7 @@
    "url": "https://github.com/openmc-dev/openmc",
    "head": "46c4c607518cd4aa4fba6d2db08cf5146b56e5e3",
    "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
-   "previous_substitute": "https://github.com/openmcdf/openmcdf"
+   "previous_substitute": "https://github.com/openmc-dev/openmc"
   }
  }
 }
